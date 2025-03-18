@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/flet_pdfviewer/__init__.py
+src/flet_pdfviewer/flet_pdfviewer.py
+src/flet_pdfviewer.egg-info/PKG-INFO
+src/flet_pdfviewer.egg-info/SOURCES.txt
+src/flet_pdfviewer.egg-info/dependency_links.txt
+src/flet_pdfviewer.egg-info/requires.txt
+src/flet_pdfviewer.egg-info/top_level.txt
+src/flutter/flet_pdfviewer/CHANGELOG.md
+src/flutter/flet_pdfviewer/LICENSE
+src/flutter/flet_pdfviewer/README.md
+src/flutter/flet_pdfviewer/pubspec.lock
+src/flutter/flet_pdfviewer/pubspec.yaml
+src/flutter/flet_pdfviewer/lib/flet_pdfviewer.dart
+src/flutter/flet_pdfviewer/lib/src/create_control.dart
+src/flutter/flet_pdfviewer/lib/src/flet_pdfviewer.dart

@@ -1,0 +1,1 @@
+from flet_pdfviewer.flet_pdfviewer import PdfViewer

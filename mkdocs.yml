@@ -1,0 +1,7 @@
+site_name: FletPdfviewer
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
