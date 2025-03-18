@@ -1,4 +1,6 @@
-# FletPdfviewer
+# PDF Viewer for Flet
+
+https://github.com/user-attachments/assets/9b30611e-b8b4-45fa-a8b6-a7a50d9a234d
 
 PdfViewer is a powerful PDF viewer component for Flet applications. It provides a feature-rich interface for displaying and interacting with PDF documents in your Flet applications.
 
