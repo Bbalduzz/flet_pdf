@@ -5,7 +5,7 @@ description = "FletPdfviewer control for Flet"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-    { name = "Flet contributors", email = "you@example.com" }
+    { name = "Edoardo Balducci", email = "edoardoba2004@gmail.com" }
 ]
 dependencies = [
     "flet>=0.27.6",
@@ -38,5 +38,5 @@ mkdocs-material = "*"
 license-files = []
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
