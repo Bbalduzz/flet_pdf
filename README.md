@@ -16,10 +16,10 @@ Here's a simple example of how to use the FletPdfviewer component:
 
 ```python
 import flet as ft
-from flet_pdfviewer import FletPdfviewer
+from flet_pdfviewer import Pdfviewer
 
 def main(page: ft.Page):
-    pdf_viewer = FletPdfviewer(
+    pdf_viewer = Pdfviewer(
         source="https://example.com/sample.pdf",
         source_type="network",
         show_bookmark=True,

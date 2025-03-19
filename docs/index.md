@@ -14,10 +14,10 @@ Here's a simple example of how to use the FletPdfviewer component:
 
 ```python
 import flet as ft
-from flet_pdfviewer import FletPdfviewer
+from flet_pdfviewer import Pdfviewer
 
 def main(page: ft.Page):
-    pdf_viewer = FletPdfviewer(
+    pdf_viewer = Pdfviewer(
         source="https://example.com/sample.pdf",
         source_type="network",
         show_bookmark=True,
@@ -35,7 +35,7 @@ Here's a more comprehensive example that demonstrates various features:
 
 ```python
 import flet as ft
-from flet_pdfviewer import FletPdfviewer
+from flet_pdfviewer import Pdfviewer
 
 def main(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
@@ -45,7 +45,7 @@ def main(page: ft.Page):
     def handle_zoom_changed(e):
         print(f"Zoom level changed: {e}")
 
-    pdf_viewer = FletPdfviewer(
+    pdf_viewer = Pdfviewer(
         source="https://example.com/sample.pdf",
         source_type="network",
         show_bookmark=True,
