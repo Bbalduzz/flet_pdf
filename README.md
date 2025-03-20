@@ -4,13 +4,34 @@ https://github.com/user-attachments/assets/9b30611e-b8b4-45fa-a8b6-a7a50d9a234d
 
 PdfViewer is a powerful PDF viewer component for Flet applications. It provides a feature-rich interface for displaying and interacting with PDF documents in your Flet applications.
 
+## License Notice
+This extension is built upon [syncfusion_flutter_pdfviewer](https://pub.dev/packages/syncfusion_flutter_pdfviewer), a commercial Flutter package by Syncfusion. To use this package in your projects, you must obtain either:
+- A Syncfusion® Commercial License, or
+- A Free Syncfusion® Community License
+
+Please refer to [Syncfusion's licensing page](https://github.com/syncfusion/flutter-examples/blob/a73a7042c8361ceb2dffb2bcc80e74aaecc9e2d5/LICENSE) for more details about licensing requirements.
+
 ## Installation
 
 ```bash
 pip install flet_pdfviewer
 ```
 
-## Basic Usage
+## Usage
+
+This pdf viewer supports numerous features, including:
+1. Virtual Scrolling - Easily scroll through the pages in the document with a fluent experience. The pages are rendered only when required to increase the loading and scrolling performance.
+2. Magnification - The content of the document can be efficiently zoomed in and out.
+3. Page Layout and Scroll Options - Layout the pages efficiently in a page by page (single page) scrolling mode or continuous scrolling mode. Also, scroll through pages in both horizontal and vertical direction.
+4. Page navigation - Navigate to the desired pages instantly.
+5. Text selection - Select text presented in a PDF document.
+6. Bookmark navigation - Bookmarks saved in the document are loaded and made ready for easy navigation. This feature helps in navigation within the PDF document of the topics bookmarked already.
+7. Document link annotation navigation - Navigate to the desired topic or position by tapping the document link annotation of the topics in the table of contents in a PDF document.
+8. Hyperlink navigation - Detects hyperlinks, and tapping on the hyperlink will open the URL in a default web browser.
+9. Text markup annotations - Add, remove, and modify text markup annotations in PDF files. The available text markups are highlight, underline, strikethrough and squiggly. This feature will help mark important passages, emphasize specific words or phrases, indicate that certain content should be removed or indicate that text contains possible errors.
+10. Form filling - Fill, edit, flatten, save, export, and import AcroForm field data in a PDF document.
+
+more to be implemented ...
 
 Here's a simple example of how to use the FletPdfviewer component:
 

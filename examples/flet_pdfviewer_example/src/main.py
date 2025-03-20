@@ -33,7 +33,7 @@ def main(page: ft.Page):
         page.update()
     
     pdf_viewer = PdfViewer(
-        source="https://cdn.syncfusion.com/content/PDFViewer/flutter-succinctly.pdf",
+        source="https://5.imimg.com/data5/SELLER/Doc/2021/4/QI/LK/YD/7115850/pdf-conversion-services.pdf",
         source_type="network",
         show_bookmark=True,
         enable_double_tap_zooming=True,
@@ -51,7 +51,7 @@ def main(page: ft.Page):
             if password_field.value:
                 pdf_viewer.password = password_field.value
             page.update()
-            page.run_async(update_pdf_info())
+            page.run_task(update_pdf_info())
     
     source_field = ft.TextField(
         label="PDF Source",
